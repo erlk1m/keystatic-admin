@@ -5,6 +5,11 @@ export default config({
     kind: 'github',
     repo: 'erlk1m/webku',
   },
+  images: {
+    directory: 'src/assets/images/blog',
+    publicPath: '/src/assets/images/blog/',
+    upload: () => true,
+  },
   collections: {
     blog: collection({
       label: 'Blog',
