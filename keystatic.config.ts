@@ -39,6 +39,10 @@ export default config({
             { label: 'tutorial', value: 'tutorial' },
           ],
         }),
+        customTags: fields.array(
+          fields.text({ label: 'Tag Baru' }),
+          { label: 'Tag Custom', itemLabel: (props) => props.value }
+        ),
         subtitle: fields.text({ label: 'Subtitle' }),
         catalog: fields.checkbox({ label: 'Catalog', defaultValue: true }),
         categories: fields.multiselect({
@@ -52,6 +56,10 @@ export default config({
             { label: 'pengetahuan', value: 'pengetahuan' },
           ],
         }),
+        customCategories: fields.array(
+          fields.text({ label: 'Kategori Baru' }),
+          { label: 'Kategori Custom', itemLabel: (props) => props.value }
+        ),
         sticky: fields.checkbox({ label: 'Sticky' }),
         draft: fields.checkbox({ label: 'Draft' }),
         tocNumbering: fields.checkbox({ label: 'TOC Numbering', defaultValue: true }),
