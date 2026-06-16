@@ -2,8 +2,10 @@ import { config, fields, collection } from '@keystatic/core';
 
 export default config({
   storage: {
-    kind: 'github',
-    repo: 'erlk1m/webku',
+    kind: 'cloud',
+  },
+  cloud: {
+    project: 'erlk1m/webku',
   },
   images: {
     directory: 'src/assets/images/blog',
