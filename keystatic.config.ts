@@ -27,7 +27,9 @@ export default config({
           label: 'Tags',
           options: [
             { label: 'armbian', value: 'armbian' },
+            { label: 'armbial', value: 'armbial' },
             { label: 'AI', value: 'AI' },
+            { label: 'ai', value: 'ai' },
             { label: 'xiaomi', value: 'xiaomi' },
             { label: 'mimo', value: 'mimo' },
             { label: 'llm', value: 'llm' },
@@ -43,6 +45,7 @@ export default config({
           label: 'Kategori',
           options: [
             { label: 'AI', value: 'AI' },
+            { label: 'ai', value: 'ai' },
             { label: 'armbian', value: 'armbian' },
             { label: 'tutorial', value: 'tutorial' },
             { label: 'rust', value: 'rust' },
